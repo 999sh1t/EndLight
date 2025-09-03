@@ -10,7 +10,6 @@ pack/
 output/
 node_modules/
 lib/
-__pycache__/
 venv/
 vendor/
 logs/
