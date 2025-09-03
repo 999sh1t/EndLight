@@ -1,0 +1,85 @@
+{
+  "portrait": {
+    "radio_disabled": {
+      "type": "TEXTURE",
+      "value": "chatbox:textures/chatbox/radio_disabled.png",
+      "width": 5,
+      "height": 10,
+      "y": 20,
+      "animation": "FADE_IN"
+    },
+    "radio_enabled": {
+      "type": "TEXTURE",
+      "value": "chatbox:textures/chatbox/radio_enabled.png",
+      "height": 10,
+      "width": 5,
+      "y": 20,
+      "animation": "CUSTOM",
+      "customAnimation": [
+        {
+          "time": 10,
+          "x": 0.2,
+          "opacity": 30,
+          "easing": "EASE_IN_OUT_SINE"
+        },
+        {
+          "time": 10,
+          "x": -0.2,
+          "opacity": 100,
+          "easing": "EASE_IN_OUT_SINE"
+        },
+        {
+          "time": 10,
+          "x": 0,
+          "opacity": 80,
+          "easing": "EASE_IN_OUT_SINE"
+        },
+                {
+          "time": 10,
+          "x": 0.2,
+          "opacity": 30,
+          "easing": "EASE_IN_OUT_SINE"
+        },
+        {
+          "time": 10,
+          "x": -0.2,
+          "opacity": 100,
+          "easing": "EASE_IN_OUT_SINE"
+        },
+        {
+          "time": 10,
+          "x": 0,
+          "opacity": 80,
+          "easing": "EASE_IN_OUT_SINE"
+        },
+        {
+          "time": 40,
+          "x": 0,
+          "opacity": 100,
+          "easing": "EASE_IN_OUT_SINE"
+        }
+      ],
+      "loop": true
+    }
+  },
+  "option": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "opacity": 0
+  },
+  "dialogBox": {
+    "texture": "",
+    "lineWidth": 0,
+    "x": 999,
+    "y": 999
+  },
+  "logButton": {
+    "x": -100,
+    "y": -100,
+    "width": 0,
+    "height": 0,
+    "opacity": 0
+  }
+}

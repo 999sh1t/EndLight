@@ -1,0 +1,309 @@
+{
+  "generalSettings": {
+    "screenSettings": {
+      "shouldBatchHUDWithImmediatelyFast": false,
+      "selectedBoxColor": 8900331
+    },
+    "inGameSettings": {
+      "shouldBatchHUDWithImmediatelyFast": true,
+      "disableHUDRendering": false
+    }
+  },
+  "armorSettings": {
+    "base": {
+      "shouldRender": true,
+      "x": 5,
+      "y": -20,
+      "originX": "LEFT",
+      "originY": "MIDDLE",
+      "growthDirectionX": "RIGHT",
+      "growthDirectionY": "MIDDLE",
+      "scale": 0,
+      "conditions": []
+    },
+    "helmet": {
+      "shouldRender": true,
+      "drawBar": true,
+      "drawItem": false,
+      "xOffset": 0,
+      "yOffset": 0,
+      "color": 13687533
+    },
+    "chestplate": {
+      "shouldRender": true,
+      "drawBar": true,
+      "drawItem": false,
+      "xOffset": 0,
+      "yOffset": 14,
+      "color": 13687533
+    },
+    "leggings": {
+      "shouldRender": true,
+      "drawBar": true,
+      "drawItem": false,
+      "xOffset": 0,
+      "yOffset": 28,
+      "color": 13687533
+    },
+    "boots": {
+      "shouldRender": true,
+      "drawBar": true,
+      "drawItem": false,
+      "xOffset": 0,
+      "yOffset": 42,
+      "color": 13687533
+    }
+  },
+  "fpsSettings": {
+    "base": {
+      "shouldRender": true,
+      "x": 5,
+      "y": -5,
+      "originX": "LEFT",
+      "originY": "BOTTOM",
+      "growthDirectionX": "RIGHT",
+      "growthDirectionY": "UP",
+      "scale": 0,
+      "conditions": []
+    },
+    "color": 15068408
+  },
+  "coordSettings": {
+    "base": {
+      "shouldRender": true,
+      "x": 5,
+      "y": 5,
+      "originX": "LEFT",
+      "originY": "TOP",
+      "growthDirectionX": "RIGHT",
+      "growthDirectionY": "DOWN",
+      "scale": 0,
+      "conditions": []
+    },
+    "X": {
+      "shouldRender": true,
+      "xOffset": 0,
+      "yOffset": 0,
+      "color": 16545905
+    },
+    "Y": {
+      "shouldRender": true,
+      "xOffset": 0,
+      "yOffset": 14,
+      "color": 10940847
+    },
+    "Z": {
+      "shouldRender": true,
+      "xOffset": 0,
+      "yOffset": 28,
+      "color": 7135740
+    }
+  },
+  "directionSettings": {
+    "base": {
+      "shouldRender": false,
+      "x": -2,
+      "y": 19,
+      "originX": "CENTER",
+      "originY": "TOP",
+      "growthDirectionX": "CENTER",
+      "growthDirectionY": "DOWN",
+      "scale": 0,
+      "conditions": []
+    },
+    "includeOrdinal": false,
+    "directionColor": {
+      "s": 16758197,
+      "sw": 16763827,
+      "w": 16765367,
+      "nw": 14207720,
+      "n": 12044777,
+      "ne": 13949936,
+      "e": 16770484,
+      "se": 16765124
+    }
+  },
+  "pingSettings": {
+    "base": {
+      "shouldRender": true,
+      "x": -57,
+      "y": -5,
+      "originX": "RIGHT",
+      "originY": "BOTTOM",
+      "growthDirectionX": "LEFT",
+      "growthDirectionY": "UP",
+      "scale": 0,
+      "conditions": []
+    },
+    "updateInterval": 5.0,
+    "pingColor": {
+      "first": 8778384,
+      "second": 15528581,
+      "third": 16694345,
+      "fourth": 16735345
+    }
+  },
+  "clockSettings": {
+    "systemSetting": {
+      "base": {
+        "shouldRender": true,
+        "x": -5,
+        "y": -5,
+        "originX": "RIGHT",
+        "originY": "BOTTOM",
+        "growthDirectionX": "LEFT",
+        "growthDirectionY": "UP",
+        "scale": 0,
+        "conditions": []
+      },
+      "use12Hour": false,
+      "color": 16777215
+    },
+    "inGameSetting": {
+      "base": {
+        "shouldRender": true,
+        "x": -80,
+        "y": 1,
+        "originX": "CENTER",
+        "originY": "TOP",
+        "growthDirectionX": "CENTER",
+        "growthDirectionY": "DOWN",
+        "scale": 0,
+        "conditions": []
+      },
+      "use12Hour": false,
+      "color": {
+        "day": 16775605,
+        "night": 14076911,
+        "rain": 11915496,
+        "thunder": 9416395
+      }
+    }
+  },
+  "daySettings": {
+    "base": {
+      "shouldRender": true,
+      "x": 5,
+      "y": 47,
+      "originX": "LEFT",
+      "originY": "TOP",
+      "growthDirectionX": "RIGHT",
+      "growthDirectionY": "DOWN",
+      "scale": 0,
+      "conditions": []
+    },
+    "color": 16777215
+  },
+  "biomeSettings": {
+    "base": {
+      "shouldRender": true,
+      "x": 80,
+      "y": 1,
+      "originX": "CENTER",
+      "originY": "TOP",
+      "growthDirectionX": "CENTER",
+      "growthDirectionY": "DOWN",
+      "scale": 0,
+      "conditions": []
+    },
+    "color": {
+      "overworld": 16777215,
+      "nether": 16545905,
+      "end": 13223907,
+      "custom": 16777215
+    }
+  },
+  "inventorySettings": {
+    "base": {
+      "shouldRender": false,
+      "x": -5,
+      "y": 0,
+      "originX": "RIGHT",
+      "originY": "MIDDLE",
+      "growthDirectionX": "LEFT",
+      "growthDirectionY": "MIDDLE",
+      "scale": 0,
+      "conditions": []
+    },
+    "drawVertical": true
+  },
+  "handSettings": {
+    "leftHandSettings": {
+      "base": {
+        "shouldRender": true,
+        "x": -96,
+        "y": -25,
+        "originX": "CENTER",
+        "originY": "BOTTOM",
+        "growthDirectionX": "LEFT",
+        "growthDirectionY": "UP",
+        "scale": 0,
+        "conditions": []
+      },
+      "showCount": true,
+      "showDurability": true,
+      "drawBar": true,
+      "drawItem": false,
+      "color": 16757683
+    },
+    "rightHandSettings": {
+      "base": {
+        "shouldRender": true,
+        "x": 96,
+        "y": -25,
+        "originX": "CENTER",
+        "originY": "BOTTOM",
+        "growthDirectionX": "RIGHT",
+        "growthDirectionY": "UP",
+        "scale": 0,
+        "conditions": []
+      },
+      "showCount": true,
+      "showDurability": true,
+      "drawBar": true,
+      "drawItem": false,
+      "color": 8900331
+    }
+  },
+  "effectSettings": {
+    "base": {
+      "shouldRender": true,
+      "x": -5,
+      "y": 5,
+      "originX": "RIGHT",
+      "originY": "TOP",
+      "growthDirectionX": "LEFT",
+      "growthDirectionY": "DOWN",
+      "scale": 0,
+      "conditions": []
+    },
+    "drawVertical": false,
+    "useEffectColor": false,
+    "differentTypeGap": 34,
+    "sameTypeGap": 25,
+    "ambientColor": 14024431,
+    "infiniteColor": 11915496
+  },
+  "targetedCrosshairSettings": {
+    "base": {
+      "shouldRender": false,
+      "x": 0,
+      "y": 37,
+      "originX": "CENTER",
+      "originY": "TOP",
+      "growthDirectionX": "CENTER",
+      "growthDirectionY": "DOWN",
+      "scale": 0,
+      "conditions": []
+    },
+    "modNameColor": 14543861,
+    "targetedNameColor": 16777215,
+    "entityColors": {
+      "hostile": 16164261,
+      "angerable": 16242359,
+      "passive": 13365464,
+      "player": 11065578,
+      "unknown": 12960724
+    }
+  }
+}

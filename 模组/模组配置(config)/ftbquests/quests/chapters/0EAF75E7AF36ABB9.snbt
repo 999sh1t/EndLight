@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0EAF75E7AF36ABB9"
+	group: ""
+	icon: "betterend:pythadendron_crafting_table"
+	id: "0EAF75E7AF36ABB9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["493A02A3B5746C0A"]
+			description: ["觉得紫颂果的传送效果影响了你的生存？去找找生长在&d紫颂菌岩&r上的&6紫颂蘑菇&r，相信我，那味道绝对比紫颂果好不少（前提是把它烤熟）"]
+			id: "06FCB2C018125B31"
+			rewards: [{
+				count: 10
+				id: "68B6890260D99E57"
+				item: "betterend:chorus_mushroom_seed"
+				type: "item"
+			}]
+			subtitle: "烦人的传送"
+			tasks: [{
+				id: "3C3834997A02FBDB"
+				item: "betterend:chorus_mushroom_cooked"
+				type: "item"
+			}]
+			title: "吃喝大事"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			description: ["按照经验，那些人绝对不会把你和吃的一起送上火箭。如果你觉得僵尸的腐肉很可口就当我没说，但如果你想换换口味，&d紫颂果&r就是最好的选择。"]
+			id: "493A02A3B5746C0A"
+			rewards: [{
+				id: "6A007B9EF3A7D6F5"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "吃喝大事"
+			tasks: [{
+				id: "70748A49B566EA75"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "吃喝大事"
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+	title: "危险的世界"
+}

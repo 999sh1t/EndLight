@@ -1,0 +1,48 @@
+{
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "",
+          "text": "连接中......"
+        },
+        "portrait": ["ai_intro_custom_animation","radio_on"]
+      },
+      {
+        "dialogBox": {
+          "name": "",
+          "text": "当前通话已接通。"
+        },
+        "portrait": ["ai","online_button","radio_on"],
+        "sound": "chatbox:radio.connect"
+      },
+      {
+        "dialogBox": {
+          "name": "",
+          "text": "检测到当前所在地---月球。"
+        },
+        "portrait": ["ai","online_button","radio_on"],
+        "sound": "chatbox:start.1"
+      },
+      {
+        "dialogBox": {
+          "name": "",
+          "text": "当前生命体征稳定，任务已下放到任务书中。"
+        },
+        "portrait": ["ai","online_button","radio_on"],
+        "sound": "chatbox:start.2"
+      },
+      {
+        "dialogBox": {
+          "name": "",
+          "text": "祝你好运，公司的大门永远为你敞开！"
+        },
+        "portrait": ["ai","online_button","radio_on"],
+        "sound": "chatbox:start.3"
+      }
+    ]
+  },
+  "isEsc": false,
+  "isPause": false,
+  "theme": "intro_dialog:dialogues"
+}

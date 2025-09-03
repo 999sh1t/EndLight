@@ -1,0 +1,101 @@
+{
+	"emeraldGeneration": {
+		// Generate Emerald Ore
+		"enabled": true
+	},
+	"diamondGeneration": {
+		// Generate Diamond Ore
+		"enabled": true
+	},
+	"goldGeneration": {
+		// Generate Gold Ore
+		"enabled": true
+	},
+	"redstoneGeneration": {
+		// Generate Restone Ore
+		"enabled": true
+	},
+	"lapisGeneration": {
+		// Generate Lapis Ore
+		"enabled": true
+	},
+	"coalGeneration": {
+		// Generate Coal Ore
+		"enabled": true
+	},
+	"silverGeneration": {
+		// Generate Silver Ore
+		"enabled": true
+	},
+	"ironGeneration": {
+		// Generate Iron Ore
+		"enabled": true
+	},
+	"leadGeneration": {
+		// Generate Lead Ore
+		"enabled": true
+	},
+	"nickelGeneration": {
+		// Generate Nickel Ore
+		"enabled": true
+	},
+	"copperGeneration": {
+		// Generate Copper Ore
+		"enabled": true
+	},
+	"aluminumGeneration": {
+		// Generate Aluminum Ore
+		"enabled": true
+	},
+	"tinGeneration": {
+		// Generate Tin Ore
+		"enabled": true
+	},
+	"osmiumGeneration": {
+		// Generate Osmium Ore
+		"enabled": false
+	},
+	"uraniumGeneration": {
+		// Generate Uranium Ore
+		"enabled": false
+	},
+	"zincGeneration": {
+		// Generate Zinc Ore
+		"enabled": false
+	},
+	"piglinGuard": {
+		// If set to 'true' Endermen will protect End Ores
+		"enabled": true
+	},
+	"silkEffect": {
+		// Set to false if you want the Endermen to attack when using Silk Touch Tools
+		"enabled": true
+	},
+	"protectionRange": {
+		// Set range that Endermen will aggro when mining ores(Default = 16)
+		"range": 16
+	},
+	"protectedBlocks": {
+		// Add Blocks to be protected by Endermen (Example: 'minecraft:glowstone')
+		"blocks": [
+			"beo:end_emerald_ore",
+			"beo:end_diamond_ore",
+			"beo:end_lapis_ore",
+			"beo:end_redstone_ore",
+			"minecraft:end_gold_ore",
+			"beo:end_silver_ore",
+			"beo:end_iron_ore",
+			"beo:end_lead_ore",
+			"beo:end_nickel_ore",
+			"beo:end_coal_ore",
+			"beo:end_copper_ore",
+			"beo:end_aluminum_ore",
+			"beo:end_tin_ore",
+			"beo:end_osmium_ore",
+			"beo:end_uranium_ore",
+			"beo:end_zinc_ore",
+			"minecraft:glowstone",
+			"minecraft:nether_quartz_ore"
+		]
+	}
+}

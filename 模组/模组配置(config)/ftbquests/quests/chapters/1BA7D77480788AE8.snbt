@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1BA7D77480788AE8"
+	group: "349FB371B5E77895"
+	icon: "ftbquests:book"
+	id: "1BA7D77480788AE8"
+	images: [{
+		height: 1.0d
+		image: "phantasm:textures/entity/ender_vex_charging.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -2.0d
+		y: -5.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"末影动物学增加了许多以末影为主题设计的新怪物，它们会在末地四处生成且远比原版的怪物难以应对。"
+				"添加了末影生物以及相关战利品与附魔"
+				"详情请看后续百科"
+			]
+			icon: "enderzoology:confusing_powder"
+			id: "290002449E7E8661"
+			rewards: [{
+				id: "5DADB1F0A1AC352B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "当主世界的怪物被末影之力感染？"
+			tasks: [{
+				id: "13B0091CDCE524CC"
+				title: "末影动物学"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"血量40点（ × 20）"
+				""
+				"伤害简单3.5点"
+				"普通5点"
+				"困难7.5点"
+				""
+				"掉落物（均受抢夺影响）："
+				"末影珍珠（0~1）"
+				"末影碎片（0~2）"
+				""
+				"中立生物"
+				"玩家主动攻击 / 与之视线对视后均会将其激怒"
+				"末影人的幼年体：同样有着怕水 & 进行瞬移的特性（攻击可被盾牌格挡）相较于原版末影人而言，其更快的移速、更小的碰撞箱显然对玩家更具威胁；"
+				"该生物会主动追逐 震荡苦力怕 并试图将其引爆。"
+			]
+			id: "6FF554CFAF9D31F2"
+			tasks: [{
+				id: "753CD8633FAAB0CC"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+	title: "末地百科全书"
+}

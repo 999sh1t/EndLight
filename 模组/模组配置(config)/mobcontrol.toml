@@ -1,0 +1,41 @@
+[general]
+# debug spams the logs with a bunch of extra logging when set to true.
+# Don't enable unless you like spammy log files, or you're troubleshooting.
+debug=false
+
+
+[[mob]]
+# name is the mod and mob to control.
+# Required
+# Type: String or Array of Strings
+# Syntax: "mod:mob" or "mod:*" or "*:*" or "*"
+# NOTE: Use * for a wildcard match.
+# Examples:
+#   "*"
+#   "minecraft:zombie"
+#   "minecraft:*"
+#   ["minecraft:skeleton", "minecraft:creeper", "custom:*"]
+name = [
+    "enderzoology:enderminy",
+    "enderzoology:concussion_creeper",
+    "enderzoology:infested_zombie",
+    "enderzoology:wither_witch"
+]
+[[mob.rule]]
+type = "all"   # 仅自然生成；如想同时作用于刷怪笼，改成 "all"
+run = 30
+repeat = 1   
+spawn.count = 1
+dimension = ["minecraft:the_end"]
+
+[[mob]]
+name = "minecraft:enderman"
+
+[[mob.rule]]
+type = "natural"   
+
+
+
+
+
+

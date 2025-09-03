@@ -1,0 +1,41 @@
+.idea/
+Thumbs.db          # 缩略图缓存
+$RECYCLE.BIN/      # 回收站文件
+Desktop.ini        # 文件夹属性配置
+build/
+dist/
+target/
+out/
+pack/
+output/
+node_modules/
+lib/
+__pycache__/
+venv/
+vendor/
+logs/
+*.log
+tmp/
+*.tmp
+*.swp
+.gradle/
+build/
+out/
+classes/
+*.launch
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+*.DS_Store
+run/
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+.endlight-mod/

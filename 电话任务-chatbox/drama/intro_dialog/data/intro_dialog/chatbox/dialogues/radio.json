@@ -1,0 +1,28 @@
+{
+  "dialogues": {
+    "radio_disabled": [
+      {
+        "dialogBox": {
+          "text": ""
+        },
+        "portrait": ["radio_disabled"]
+      },
+      {
+        "dialogBox": {
+          "text": ""
+        },
+        "portrait": ["radio_enabled"],
+        "sound": "chatbox:radio.call"
+      },
+      {
+        "dialogBox": {
+          "text": ""
+        },
+        "command": "chatbox skip intro_dialog:intro start"
+      }
+    ]
+  },
+  "isEsc": false,
+  "isPause": false,
+  "theme": "intro_dialog:radiotheme"
+}

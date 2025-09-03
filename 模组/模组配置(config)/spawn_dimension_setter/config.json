@@ -1,0 +1,6 @@
+{
+    "dimension": "minecraft:the_end",
+    "safeCheck": true,
+    "rangeX": 1000,
+    "rangeZ": 1000
+}

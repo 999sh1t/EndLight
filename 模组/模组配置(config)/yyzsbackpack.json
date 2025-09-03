@@ -1,0 +1,14 @@
+{
+  "quickSwapEnabled": true,
+  "useDedicatedSlot": false,
+  "renderModelEnabled": true,
+  "restrictContainerItems": false,
+  "slotPositionX": 0,
+  "slotPositionY": 0,
+  "backpackGuiX": 0,
+  "backpackGuiY": 0,
+  "tooltipModifier": "shift",
+  "restrictedItems": [
+    "namespace:item_id"
+  ]
+}

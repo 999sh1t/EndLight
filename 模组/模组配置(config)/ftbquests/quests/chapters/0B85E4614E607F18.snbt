@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0B85E4614E607F18"
+	group: "349FB371B5E77895"
+	icon: "techreborn:debug_tool"
+	id: "0B85E4614E607F18"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D56DEE535A04AC1"]
+			description: [
+				"本整合包目前仍在开发！"
+				"这意味着您在游玩过程中会遇到种种问题，比如部分关键流程物品无法合成、卡进度等问题"
+				"由于这是作者第一个整合包，也请您谅解>_<"
+				"如果您遇到了某些问题或bug，欢迎反馈！"
+				"建议您在游玩前进行备份，以防未知崩溃"
+				"由于是测试版，您正在游玩的当前版本的存档也许不能升级到新版本，请您谅解！"
+			]
+			icon: "techreborn:debug_tool"
+			id: "305F63A798A17615"
+			rewards: [{
+				id: "4C08D5852B99009A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "整合包开发中ing"
+			tasks: [{
+				id: "15D2999688A1AF8D"
+				type: "checkmark"
+			}]
+			title: "测试版警告⚠"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"欢迎游玩本整合包！"
+				"在这里，您将会体验从末地开始发育、&c发展科技、探索冒险，最终合成出&r&o&bTARIDM&r&r，让您自由穿梭各个维度，您也可以由此回到主世界！"
+				""
+				"&l&a·&r&r准备体验一套全新的末地资源获取流程以及算是比较冷门的科技模组&o&bTechReborn&r&r，以及允许您直抵群星的&o&bAd astra&r&r模组！"
+				"&l&a·&r&r探索由&o&bBetterEnd&r&r（更好的末地）模组添加的10种+群系和&c独特的末地村庄&r！"
+				"&l&a·&r&r锻造使用由&o&oEndReborn&r&r模组添加的各种&c末地矿石装备&r，助您在这不毛之地游刃有余！"
+				"&l&a·&r&r品尝&b农夫乐事&r及其附属模组&e末地乐事添加的末地风味食物&r，游玩之余来口&c珍珠奶茶&r也许不错！"
+				""
+				"&b准备好了吗，准备在这终焉之地绽放光芒吧&r"
+			]
+			icon: "minecraft:ender_eye"
+			id: "2D56DEE535A04AC1"
+			rewards: [{
+				id: "45392E00F0DD7E10"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "欢迎游玩  终焉的生存之光 整合包"
+			tasks: [{
+				id: "3DC270D6F67AA831"
+				title: "并非结束，而是开端..."
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D56DEE535A04AC1"]
+			description: [
+				"在本整合包中，您可以&l&b骑珍珠&r&r！"
+				"这意味着您可以在&o&e扔出珍珠时随着珍珠一同移动"
+				"&r&r借此帮助您观察附近和远方！"
+				""
+				"本整合包&c默认开启珍珠骑乘&r，如果您想将其关闭，请见&n后续任务指令"
+				"&r"
+				"同时本整合包的珍珠扔出后&a将不再消耗，并且给予您伤害吸收效果&r！&9我们鼓励使用珍珠赶路！"
+				"&r"
+				"&c请注意&r：骑乘珍珠&4&l并不意味着您可以改变其运动方向&r&r，&n只是您可以随珍珠移动&r"
+				"&n&b在珍珠未落地前再次扔出珍珠将不会触发骑乘，所以除非自救，不建议频繁扔出珍珠&r&r&4"
+			]
+			icon: "minecraft:ender_pearl"
+			id: "7CB757F69E6534FF"
+			rewards: [{
+				id: "6E91BA3C44FA99C9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "试试骑珍珠？"
+			tasks: [{
+				id: "7F8A6A8FB39FDBCB"
+				title: "骑着珍珠旅行！"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7CB757F69E6534FF"]
+			description: ["祝旅途愉快！"]
+			icon: "minecraft:lever"
+			id: "18E1B57FF7FD16E0"
+			rewards: [{
+				command: "/trigger RidePearls"
+				id: "09FCBFE9CF7D6512"
+				title: "开启珍珠骑乘"
+				type: "command"
+			}]
+			subtitle: "开始珍珠旅行！"
+			tasks: [{
+				id: "4E802F52FB2A4429"
+				title: "开启珍珠骑乘"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7CB757F69E6534FF"]
+			description: ["步行也不错！"]
+			icon: "minecraft:lever"
+			id: "60E84AF8AD64BDEF"
+			rewards: [{
+				command: "/trigger StopRidingPearls"
+				id: "09B277F48314E9DF"
+				type: "command"
+			}]
+			subtitle: "关闭珍珠骑乘"
+			tasks: [{
+				id: "1739DADAFCB9B45D"
+				title: "关闭珍珠骑乘"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D56DEE535A04AC1"]
+			description: [
+				"&a为了方便各位玩家在末地生存与发展&r，我们针对末地&b新的生物、矿石、群系&r&l&e进行集中解释说明"
+				""
+				"&r&l&c希望这本百科全书能祝您畅游末地！&r&r"
+				""
+				"（其中部分资料来自百科mcmod.cn，若有侵权联系删除）"
+			]
+			icon: "minecraft:writable_book"
+			id: "65D9841EF73450F3"
+			rewards: [{
+				id: "4121DCAC721FD424"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "末地指南！"
+			tasks: [{
+				id: "3F976B3E55C3D349"
+				title: "末地的100种方法"
+				type: "checkmark"
+			}]
+			title: "末地百科全书"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D56DEE535A04AC1"]
+			description: [
+				"由于本整合包添加了&l&o&b末影动物学模组&r&r&r，&a并把部分其中生物搬到了末地来"
+				"&r（明明叫末影动物学怪物却只生成在末地的屑模组）"
+				"所以你面对的怪物可能&4&c比较难以处理"
+				"&r&r并且&4&c怪物数量较多"
+				"&r&r如果你因处理怪物而头大"
+				"&6不妨试试将难度切换为普通"
+				"&r和平也未尝不可，等到发育出铁套再开启困难"
+			]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "0AADAA99FFA8C990"
+			rewards: [{
+				id: "6871E326C12D6109"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不想被怪物乱杀看这里捏"
+			tasks: [{
+				id: "64D510015DEF18C6"
+				type: "checkmark"
+			}]
+			title: "关于怪物生成"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2D56DEE535A04AC1"]
+			description: [
+				"由于您将在末地进行发育，因此本整合包针对&l&b部分资源获取进行了魔改&r&r"
+				"并且添加了&c部分独特的玩法"
+				"&r在游玩过程中遇到不解的地方请查看&a百科全书或任务书"
+				"&r没有进行解释说明的物品与玩法可以反馈给作者"
+				"&e因此带来的不便请您谅解&r"
+			]
+			icon: "techreborn:overclocker_upgrade"
+			id: "1241037BBCD3FAED"
+			rewards: [{
+				id: "7E5E978DC1C0DCB8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "末地风格玩法和资源获取"
+			tasks: [{
+				id: "1A00D399624EE7C8"
+				title: "部分资源和玩法有更改！"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: "游玩须知"
+}
